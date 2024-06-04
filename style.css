@@ -1,6 +1,6 @@
 
 body {
-    font-family: "Playfair Display", serif;
+    font-family: "Mulish", sans-serif;
     background: linear-gradient(90deg, rgba(255,255,255,0.3478641456582633) 0%, rgba(185,184,184,0.9865196078431373) 100%);
     display: flex;
     justify-content: center;
@@ -47,13 +47,18 @@ input[type="text"], input[type="password"] {
 }
 #sign-google{
     height: 35px;
+    width: 250px;
     background-color: #fff;
-    border: 1px solid grey;
+    border: 1px solid rgb(172, 171, 171);
 }
 input::placeholder{
     margin-left: 10px;
     color: rgb(168, 167, 167);
     padding-left: 10px;
+}
+#iconGoogle{
+    width: 15px;
+    margin-right: 10px;
 }
 /*parte da img*/
 .sectionImg{
